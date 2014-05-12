@@ -1,0 +1,16 @@
+Reading cached build data
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Creating project symlinks
+>> Entering Package CondCore/RPCPlugins
+>> Entering Package CondFormats/RPCObjects
+>> Entering Package CondFormats/DataRecord
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+gmake[1]: Entering directory `/afs/cern.ch/work/o/oiorio/CMSSW_5_3_11_patch2'
+>> Creating project symlinks
+>> Pluging of all type refreshed.
+>> Done python_symlink
+>> Compiling python modules python
+>> All python modules compiled
+gmake[1]: Leaving directory `/afs/cern.ch/work/o/oiorio/CMSSW_5_3_11_patch2'

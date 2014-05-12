@@ -1,0 +1,12 @@
+Reading cached build data
+>> Local Products Rules ..... started
+>> Local Products Rules ..... done
+>> Entering Package CondFormats/RPCObjects
+>> Creating project symlinks
+>> Entering Package CondFormats/DataRecord
+>> Building edm plugin tmp/slc5_amd64_gcc462/src/CondFormats/RPCObjects/test/RPCReadOutMapAnalyzer/libRPCReadOutMapAnalyzer.so
+/afs/cern.ch/cms/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../x86_64-unknown-linux-gnu/bin/ld: tmp/slc5_amd64_gcc462/src/CondFormats/RPCObjects/test/RPCReadOutMapAnalyzer/RPCReadOutMapAnalyzer.o: in function RPCReadOutMapAnalyzer::analyze(edm::Event const&, edm::EventSetup const&):RPCReadOutMapAnalyzer.cc(.text+0xce): error: undefined reference to 'void edm::eventsetup::eventSetupGetImplementation<RPCEMapRcd>(edm::EventSetup const&, RPCEMapRcd const*&)'
+/afs/cern.ch/cms/slc5_amd64_gcc462/external/gcc/4.6.2/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.6.2/../../../../x86_64-unknown-linux-gnu/bin/ld: tmp/slc5_amd64_gcc462/src/CondFormats/RPCObjects/test/RPCReadOutMapAnalyzer/RPCReadOutMapAnalyzer.o: in function RPCReadOutMapAnalyzer::analyze(edm::Event const&, edm::EventSetup const&):RPCReadOutMapAnalyzer.cc(.text+0x361): error: undefined reference to 'void edm::eventsetup::eventSetupGetImplementation<RPCReadOutMappingRcd>(edm::EventSetup const&, RPCReadOutMappingRcd const*&)'
+collect2: ld returned 1 exit status
+gmake: *** [tmp/slc5_amd64_gcc462/src/CondFormats/RPCObjects/test/RPCReadOutMapAnalyzer/libRPCReadOutMapAnalyzer.so] Error 1
+gmake: *** [There are compilation/build errors. Please see the detail log above.] Error 2
